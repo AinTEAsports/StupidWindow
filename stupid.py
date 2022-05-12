@@ -19,7 +19,7 @@ class App(QMainWindow):
     def initUI(self):
         self.label = QtWidgets.QLabel(self)
         self.label.setText("Are you stupid ?")
-        self.label.setStyleSheet("font-size : 12pt")
+        self.label.setStyleSheet("font-size : 11pt")
         self.label.move(200, 150)
 
 
