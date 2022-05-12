@@ -57,7 +57,7 @@ class App(QMainWindow):
 
 def window():
     app = QApplication(sys.argv)
-    win = App("My Title")
+    win = App("My Title", 500, 300)
     
     win.show()
     sys.exit(app.exec_())
