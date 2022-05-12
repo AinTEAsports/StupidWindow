@@ -13,6 +13,8 @@ class App(QMainWindow):
         self.initUI()
 
         self.setGeometry(xPop, yPop, width, height)
+        self.setFixedSize(width, height)
+
         self.setWindowTitle("Title")
 
 
